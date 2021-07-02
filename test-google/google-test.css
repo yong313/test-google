@@ -1,0 +1,165 @@
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(24, 24, 24);
+}
+html, body{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/********************* 네비 **********************************/
+header{
+    padding: 10px;
+}
+.nav-list{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    width: 50px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+#google-app{
+    width: 22px;
+    height: 22px;
+    padding: 2;
+}
+#nav-login{
+    width: 99px;
+    height: 36px;
+    line-height: 38px;
+    border: 1px solid #1a73e8;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #1a73e8;
+    margin-right: 10px;
+}
+#nav-login:hover{
+    border: 1px solid #4387fd;
+    background: linear-gradient(to bottom right,#4387fd,#4683ea);
+    box-shadow: 0px 0px 2px #4387fd;
+}
+.google-logo{
+    width: 100%;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+/********************** 검색영역 *********************************/
+.google-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    width: 570px;
+    padding: 5px;
+    height: 34px;
+    border: 1px solid #e4e4e4;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search-box:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 5px 0px;
+}
+.search-item{
+    height: 34px;
+    flex-basis: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 19px;
+    margin: 0 5px;
+}
+.search-box .search-item:nth-child(1){
+    flex-grow: 30px;
+    background-image: url(google-img/google-search.svg);
+}
+.search-box .search-item:nth-child(2){flex-grow: 1}
+.search-box .search-item:nth-child(3){
+    flex-grow: 30px;
+    background-image: url(google-img/google-keyboard.svg);
+    margin-right: 7px;
+}
+.search-box .search-item:nth-child(4){
+    flex-grow: 30px;
+    background-image: url(google-img/google-mic.svg);
+    background-size: 14px;
+    margin-right: 8px;
+}
+#search-box{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+}
+/***********버튼 영역************/
+.google-button{
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+.button-item{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    border:1px solid #f8f9fa;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+.button-item:hover{
+    box-shadow: rgba(99, 99, 99, 0.8) 0px 0px 2px 0px;
+}
+.button-item:nth-child(1){
+    margin-right: 12px;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f8f9fa;
+    height: 100px;
+    color: #999999;
+}
+.google-location{
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #dadce0;
+    padding: 12.5px 30px;
+}
+footer div a{
+    color: #999999;
+    font-size: 14px;
+    padding: 0 10px;
+}
+footer div a:nth-child(1){
+    padding-left: 0;
+}
+.footer-nav{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding: 12.5px 30px;
+}
+.footer-nav-2{
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    padding: 12.5px 30px;
+}
